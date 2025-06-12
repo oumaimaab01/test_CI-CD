@@ -1,2 +1,2 @@
 from app import say_hello
-assert say_hello() == "Hello CI"
+assert say_hello() == "Hello CI ok ok"
