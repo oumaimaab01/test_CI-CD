@@ -1,2 +1,4 @@
 from app import say_hello
-assert say_hello() == "Hello CI"
+
+def test_say_hello():
+    assert say_hello("Oumaima") == "Hello, Oumaima!"
