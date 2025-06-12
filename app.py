@@ -1,2 +1,2 @@
-def say_hello():
-    return "Hello CI"
+def say_hello(name):
+    return f"Hello, {name}!"
